@@ -1,0 +1,51 @@
+/*selector universal*/
+
+*{
+    background-color: rgba(235, 176, 15, 0.233);
+/*color de texto*/
+color: rgb(33, 10, 116);
+
+}
+h1{
+    color: black;
+}
+h2{color:brown;
+}
+/* de clase*/
+.tipografia{
+    /* tipografia*/
+    font-family:sans-serif;
+    /* tamaño */
+    font: size 30px;
+    /* peso*/
+    font-weight: 900;
+
+     /*alineacion*/
+     text-align: center;
+}
+/*de id*/
+#rosa{
+    color: rgb(248, 14, 53);
+     }
+
+#link{
+  
+    text-align: center;
+        font-style: oblique;
+}
+/* media queries*/
+@media only screen and (max-width:600px) {
+ 
+    body{
+        background-color: red;
+    }
+    p{
+        color: yellow;
+    }
+}
+img, video{
+    /*ancho*/
+    width: 400px;
+    /*altura*/
+   /* height: 400px;*/
+}
